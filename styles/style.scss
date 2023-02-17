@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  border: none;
+  z-index: 999;
+  margin-bottom: 0;
+  section.header {
+    display: flex;
+    justify-content: center;
+
+    .headerTitle {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background-color: #e9e8e8;
+      width: 100%;
+
+      span {
+        color: #144272;
+        padding-right: 10px;
+      }
+
+      .headerIcon {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+      .headerTitle1 {
+        font-size: 40px;
+      }
+    }
+  }
+  // nav
+  section.navigation {
+    .navbar {
+      padding: 0;
+      margin-bottom: 5px;
+      margin-top: 0;
+
+      .container-fluid {
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 5px -1px,
+          rgba(0, 0, 0, 0.3) 0px 5px 3px -1px;
+
+        .navbar-toggler {
+          margin-right: 85%;
+          margin-bottom: 5px;
+          font-size: 15px;
+        }
+
+        .collapse {
+          .navbar-nav {
+            .nav-item {
+              padding: 0 20px;
+              .nav-link {
+                &:hover {
+                  color: #144272;
+                  scale: 1.1;
+                }
+              }
+              .dropdown-menu {
+                .dropdown-item {
+                  font-size: large;
+                  padding: 10px;
+                  text-align: center;
+                  &:hover {
+                    color: #144272;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+main {
+  padding-top: 100px;
+  // ---------------- 首頁 ----------------
+  section.background-1 {
+    .backgroundImg {
+      background-image: url(../image/home.JPG);
+      height: 550px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 5;
+    }
+  }
+  section.aidainfo {
+    padding: 10px 0;
+    // border: 2px solid rgb(166, 255, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    // background-color: #aca9a9;
+    align-items: center;
+
+    .aidaImg {
+      background-image: url(../image/logo-aida300.png);
+      height: 300px;
+      width: 300px;
+      background-position: center;
+      background-repeat: no-repeat;
+      //   margin-right: 100px;
+    }
+  }
+  //---------------- aida1 ----------------
+  section.background-aida1 {
+    .backgroundImg {
+      background-image: url(../image/aida1photo.jpg);
+      height: 550px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 5;
+      position: relative;
+      margin-bottom: 10px;
+    }
+  }
+  h2.aida1Title {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 10px;
+  }
+  .infoIcon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    .infoIcon1 {
+      text-align: center;
+      margin: 20px 150px;
+
+      .bi-clock {
+        font-size: 50px;
+      }
+      .infoma {
+        .info {
+          h4 {
+            font-size: 15px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .infoIcon2 {
+      text-align: center;
+      margin: 20px 150px;
+      .bi-coin {
+        font-size: 50px;
+      }
+      .infoma2 {
+        .info {
+          h4 {
+            font-size: 15px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  section.classInfoma {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #e9e8e8;
+
+    .classInfo {
+      //   border: 2px solid red;
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+
+      .classTitle {
+        h4 {
+          font-size: 20px;
+        }
+      }
+    }
+    .classList {
+      font-size: 15px;
+      color: rgb(83, 83, 83);
+    }
+  }
+}
+//---------------- aida2 ----------------
+section.background-aida2 {
+  .backgroundImg2 {
+    background-image: url(../image/aida2.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 5;
+  }
+}
+//---------------- aida3 ----------------
+section.background-aida3 {
+  .backgroundImg3 {
+    background-image: url(../image/aida3.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 5;
+  }
+}
+//---------------- experience ----------------
+section.background-experience {
+  .backgroundImg5 {
+    background-image: url(../image/體驗.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 5;
+  }
+}
+//---------------- footer ----------------
+
+footer {
+  background-color: #1e1e1e;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  .contactMe {
+    h3 {
+      font-size: 15px;
+      text-align: center;
+      color: rgb(142, 142, 142);
+    }
+  }
+  .icon {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .line {
+      margin: 0 20px;
+      a {
+        img {
+          width: 50px;
+          height: 50px;
+          cursor: pointer;
+        }
+      }
+    }
+    .instagram {
+      margin: 0 20px;
+      a {
+        img {
+          width: 50px;
+          height: 50px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .copyRight {
+    padding-top: 20px;
+    p {
+      font-size: 0.2rem;
+      text-align: center;
+      color: rgb(142, 142, 142);
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  body {
+    main {
+      section.classInfoma {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
