@@ -46,6 +46,7 @@ header section.navigation .navbar .container-fluid {
   display: flex;
   flex-direction: column;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 5px -1px, rgba(0, 0, 0, 0.3) 0px 5px 3px -1px;
+  margin-bottom: 5px;
 }
 header section.navigation .navbar .container-fluid .navbar-toggler {
   margin-right: 85%;
@@ -108,6 +109,12 @@ main h2.aida1Title {
   padding: 20px 0;
   margin-bottom: 10px;
 }
+main h2.aida1Title1 {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #144272;
+}
 main .infoIcon {
   display: flex;
   flex-wrap: wrap;
@@ -136,6 +143,11 @@ main .infoIcon .infoIcon2 .infoma2 .info h4 {
   font-size: 15px;
   text-align: center;
 }
+main .infoIcon .infoIcon2 .infoma2 .info h4.train {
+  width: 350px;
+  padding-left: 50px;
+  text-align: left;
+}
 main section.classInfoma {
   padding-top: 30px;
   padding-bottom: 10px;
@@ -156,8 +168,7 @@ main section.classInfoma .classList {
   font-size: 15px;
   color: rgb(83, 83, 83);
 }
-
-section.background-aida2 .backgroundImg2 {
+main section.background-aida2 .backgroundImg2 {
   background-image: url(../image/aida2.jpg);
   height: 550px;
   background-size: cover;
@@ -165,8 +176,7 @@ section.background-aida2 .backgroundImg2 {
   background-position: center;
   opacity: 5;
 }
-
-section.background-aida3 .backgroundImg3 {
+main section.background-aida3 .backgroundImg3 {
   background-image: url(../image/aida3.jpg);
   height: 550px;
   background-size: cover;
@@ -174,14 +184,59 @@ section.background-aida3 .backgroundImg3 {
   background-position: center;
   opacity: 5;
 }
-
-section.background-experience .backgroundImg5 {
+main section.background-experience .backgroundImg5 {
   background-image: url(../image/體驗.jpg);
   height: 550px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 5;
+}
+main section.background-guided .backgroundguided {
+  background-image: url(../image/g/2.JPG);
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 5;
+}
+main section.info h2.title {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 5px;
+}
+main section.locationCard {
+  padding: 30px 0;
+}
+main section.locationCard .allCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main section.locationCard .allCard .card {
+  margin: 10px 10px;
+}
+main section.background-train .backgroundTrainImg {
+  background-image: url(../image/train/train.jpg);
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 5;
+}
+main section.coachtotal {
+  display: flex;
+  background-color: #e9e8e8;
+  justify-content: center;
+  padding: 30px;
+}
+main section.coachtotal .card {
+  display: flex;
+  text-align: center;
+}
+main section.coachtotal .card .card-body .line {
+  border: 0.5px solid black;
+  width: 320px;
 }
 
 footer {
@@ -220,7 +275,7 @@ footer .copyRight {
   padding-top: 20px;
 }
 footer .copyRight p {
-  font-size: 0.2rem;
+  font-size: 0.5rem;
   text-align: center;
   color: rgb(142, 142, 142);
 }

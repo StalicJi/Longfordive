@@ -50,6 +50,7 @@ header {
         flex-direction: column;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 5px -1px,
           rgba(0, 0, 0, 0.3) 0px 5px 3px -1px;
+        margin-bottom: 5px;
 
         .navbar-toggler {
           margin-right: 85%;
@@ -134,6 +135,12 @@ main {
     padding: 20px 0;
     margin-bottom: 10px;
   }
+  h2.aida1Title1 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #144272;
+  }
   .infoIcon {
     display: flex;
     flex-wrap: wrap;
@@ -168,6 +175,12 @@ main {
             font-size: 15px;
             text-align: center;
           }
+          h4.train {
+            width: 350px;
+            // color: indianred;
+            padding-left: 50px;
+            text-align: left;
+          }
         }
       }
     }
@@ -197,40 +210,103 @@ main {
       color: rgb(83, 83, 83);
     }
   }
-}
-//---------------- aida2 ----------------
-section.background-aida2 {
-  .backgroundImg2 {
-    background-image: url(../image/aida2.jpg);
-    height: 550px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 5;
+
+  //---------------- aida2 ----------------
+  section.background-aida2 {
+    .backgroundImg2 {
+      background-image: url(../image/aida2.jpg);
+      height: 550px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 5;
+    }
+  }
+  //---------------- aida3 ----------------
+  section.background-aida3 {
+    .backgroundImg3 {
+      background-image: url(../image/aida3.jpg);
+      height: 550px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 5;
+    }
+  }
+  //---------------- experience ----------------
+  section.background-experience {
+    .backgroundImg5 {
+      background-image: url(../image/體驗.jpg);
+      height: 550px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 5;
+    }
+  }
+  //---------------- 導潛 ----------------
+  section.background-guided {
+    .backgroundguided {
+      background-image: url(../image/g/2.JPG);
+      height: 550px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 5;
+    }
+  }
+
+  section.info {
+    h2.title {
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 5px;
+    }
+  }
+
+  section.locationCard {
+    padding: 30px 0;
+    .allCard {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .card {
+        margin: 10px 10px;
+      }
+    }
+  }
+
+  //---------------- train ----------------
+  section.background-train {
+    .backgroundTrainImg {
+      background-image: url(../image/train/train.jpg);
+      height: 550px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 5;
+    }
+  }
+
+  //---------------- Coach ----------------
+  section.coachtotal {
+    display: flex;
+    background-color: #e9e8e8;
+    justify-content: center;
+    padding: 30px;
+    .card {
+      display: flex;
+      text-align: center;
+      .card-body {
+        .line {
+          border: 0.5px solid black;
+          width: 320px;
+        }
+      }
+    }
   }
 }
-//---------------- aida3 ----------------
-section.background-aida3 {
-  .backgroundImg3 {
-    background-image: url(../image/aida3.jpg);
-    height: 550px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 5;
-  }
-}
-//---------------- experience ----------------
-section.background-experience {
-  .backgroundImg5 {
-    background-image: url(../image/體驗.jpg);
-    height: 550px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 5;
-  }
-}
+
 //---------------- footer ----------------
 
 footer {
@@ -274,13 +350,14 @@ footer {
   .copyRight {
     padding-top: 20px;
     p {
-      font-size: 0.2rem;
+      font-size: 0.5rem;
       text-align: center;
       color: rgb(142, 142, 142);
     }
   }
 }
 
+//---------------- RWD ----------------
 @media screen and (max-width: 660px) {
   body {
     main {
@@ -291,3 +368,29 @@ footer {
     }
   }
 }
+
+// @media screen and (max-width: 1415px) {
+//   body {
+//     main {
+//       section.map {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//       }
+//     }
+//   }
+// }
+// @media screen and (max-width: 1220px) {
+//   body {
+//     main {
+//       section.map {
+//         .textinfo {
+//           .information1 {
+//             display: flex;
+//             flex-direction: column;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
